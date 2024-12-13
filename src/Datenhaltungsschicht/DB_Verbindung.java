@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class DB_Verbindung {
     private static Connection con;
-    private static String url = "jdbc:oracle:thin:@localhost:xe";
+    private static String url = "jdbc:oracle:thin:@localhost:1521:xe";
     protected static Statement befehl;
 
 
